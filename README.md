@@ -1,47 +1,33 @@
-#  LESS-TOUCH 	v0.0.1
+# Lessy
+	Is Less-Touch reborn to be more functional and fast and less redundant
 
-A simple timer based less file watcher,updates your css files accordingly;
+# Features
+	- capable of watching only a single file
+	- capable of dealing with @import directives by requiring you to specific your location for your less files
+	- capable of watching a directory and updating itself the lists of files in a directory
+	- a better time based loop 
 
+# License: Released under Mit Licence
+"
+The MIT License (MIT)
 
-##  Install:  
-		 ```npm install less-touch -g ```
-			
-#   How To:
-  
-  ##  CommandLine:
-	Just create a empty file called build_less or buildless or build-less in 
-	your projects root directory with a corresponding json object map like below,
-	the keys must be in lowercase as below:
-		
-		 ```{
-			"less" : "./assets/less",
-			
-			"css" : "./assets/css",
-	
-			"timeout" : 3000
-		}```
-		
-	Save,navigate to your projects roots and run **"less-touch"** in your terminal!
+Copyright (c) 2011 - 2012 Christoph Martens
 
-  ##  As a library: 
-   	Simple require the less file after installation with NPM or after copying 
-   	the less-touch.js,nodelib.js files  from the "/lib" folder into your project ,require them 
-   	into your projects as follows
-   	
-   	```var fs = require('fs'),
-	path = require('path'),
-	less = require('less'),
-	nodelib = require("./nodelib"),
-	less_touch = require("./less-touch").LessTouch(fs,path,less,nodelib);
-	
-	settings =  {"less" : "path to your less files", 
-		"css" : "path to save css files to", 
-		"timeout" : "desired time out in milliseconds" 
-		};
-	
-	eg settings = { "less" : "./assets/less",  
-		"css" : "./assets/css",
-		"timeout" : 3000 };```
-	
-	Then simple call the init function of the less-touch library.
-	```less_touch.init(settings);```
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished to do so, subject
+to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies
+or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+"
