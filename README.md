@@ -1,5 +1,8 @@
-# Lessy
+# Lessy 
 	Is Less-Touch reborn to be more functional and fast and less redundant
+
+#Install 
+	' npm install lessy '
 
 # Features
 	- capable of watching only a single file
