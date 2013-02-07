@@ -4,6 +4,23 @@
 #Install 
 	' npm install lessy '
 
+#Example
+	"
+		var lessy = require('lessy');
+		//get a lessy object, it requires two arguments
+			-	output : where you wish your generated css files to be saved
+			- imports : where you keep your other less files( usually in the same as the less folder,if u seprate your less files though(note thats a bad idea generally)),supply the directory path so it can handle less @imports directives
+
+		var compiler = lessy('./css','./less');
+		//to wath a single file
+		compiler.sync('./less/style.less');
+		//supply a second arguments if u wish to rename the file
+		compiler.sync('./less/style.less','styledup.css');
+		//to watch a directory
+		compiler.syncDir('./less');
+		//then startup your compiler
+		compiler.bootup();
+	"
 # Features
 	- capable of watching only a single file
 	- capable of dealing with @import directives by requiring you to specific your location for your less files
