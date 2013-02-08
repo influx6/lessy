@@ -24,9 +24,9 @@
   "license": "Mit",
   "gitHead": "a10e7e9d36f2ff76a454448dafdb657ec330f2d1",
   "readmeFilename": "README.md",
-  "Dependencies":{
+  "dependencies":{
 		"less" : ">= 1.3.0",
-		"ts": "@0.3.x",
+		"tsk": "@0.3.x",
 		"watcherjs": "@0.x.x"
 
 	}
