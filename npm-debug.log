@@ -1,0 +1,115 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Volumes/HOME/homebrew/Cellar/node/0.8.18/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '-f' ]
+2 info using npm@1.2.2
+3 info using node@v0.8.18
+4 verbose publish [ '.' ]
+5 verbose read json /Volumes/HOME/Projects/me/lessy/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/punchbox/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/p6/r2w_4g2x27dfwyssxxhsdscr0000gn/T/npm-22011/1360297105210-0.6230281172320247/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/p6/r2w_4g2x27dfwyssxxhsdscr0000gn/T/npm-22011/1360297105210-0.6230281172320247/tmp.tgz
+14 verbose folder .
+15 info prepublish lessy@0.0.1
+16 silly lockFile f6d9b059-05210-0-6230281172320247-tmp-tgz /var/folders/p6/r2w_4g2x27dfwyssxxhsdscr0000gn/T/npm-22011/1360297105210-0.6230281172320247/tmp.tgz
+17 verbose lock /var/folders/p6/r2w_4g2x27dfwyssxxhsdscr0000gn/T/npm-22011/1360297105210-0.6230281172320247/tmp.tgz /Users/punchbox/.npm/f6d9b059-05210-0-6230281172320247-tmp-tgz.lock
+18 silly lockFile f6d9b059-05210-0-6230281172320247-tmp-tgz /var/folders/p6/r2w_4g2x27dfwyssxxhsdscr0000gn/T/npm-22011/1360297105210-0.6230281172320247/tmp.tgz
+19 verbose tar unpack /var/folders/p6/r2w_4g2x27dfwyssxxhsdscr0000gn/T/npm-22011/1360297105210-0.6230281172320247/tmp.tgz
+20 silly lockFile 27fe00b1-05210-0-6230281172320247-package /var/folders/p6/r2w_4g2x27dfwyssxxhsdscr0000gn/T/npm-22011/1360297105210-0.6230281172320247/package
+21 verbose lock /var/folders/p6/r2w_4g2x27dfwyssxxhsdscr0000gn/T/npm-22011/1360297105210-0.6230281172320247/package /Users/punchbox/.npm/27fe00b1-05210-0-6230281172320247-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry README.md
+25 silly gunzTarPerm extractEntry bin/less-touch
+26 silly gunzTarPerm extractEntry css/css.css
+27 silly gunzTarPerm extractEntry css/css.less
+28 silly gunzTarPerm extractEntry css/stack.less
+29 silly gunzTarPerm extractEntry lib/lessy.js
+30 silly gunzTarPerm extractEntry tests/example.js
+31 verbose read json /var/folders/p6/r2w_4g2x27dfwyssxxhsdscr0000gn/T/npm-22011/1360297105210-0.6230281172320247/package/package.json
+32 silly lockFile 27fe00b1-05210-0-6230281172320247-package /var/folders/p6/r2w_4g2x27dfwyssxxhsdscr0000gn/T/npm-22011/1360297105210-0.6230281172320247/package
+33 verbose from cache /var/folders/p6/r2w_4g2x27dfwyssxxhsdscr0000gn/T/npm-22011/1360297105210-0.6230281172320247/package/package.json
+34 verbose tar pack [ '/Users/punchbox/.npm/lessy/0.0.1/package.tgz',
+34 verbose tar pack   '/var/folders/p6/r2w_4g2x27dfwyssxxhsdscr0000gn/T/npm-22011/1360297105210-0.6230281172320247/package' ]
+35 verbose tarball /Users/punchbox/.npm/lessy/0.0.1/package.tgz
+36 verbose folder /var/folders/p6/r2w_4g2x27dfwyssxxhsdscr0000gn/T/npm-22011/1360297105210-0.6230281172320247/package
+37 silly lockFile 4ae2fc0d-hbox-npm-lessy-0-0-1-package-tgz /Users/punchbox/.npm/lessy/0.0.1/package.tgz
+38 verbose lock /Users/punchbox/.npm/lessy/0.0.1/package.tgz /Users/punchbox/.npm/4ae2fc0d-hbox-npm-lessy-0-0-1-package-tgz.lock
+39 silly lockFile 4ae2fc0d-hbox-npm-lessy-0-0-1-package-tgz /Users/punchbox/.npm/lessy/0.0.1/package.tgz
+40 silly lockFile f211adfb-punchbox-npm-lessy-0-0-1-package /Users/punchbox/.npm/lessy/0.0.1/package
+41 verbose lock /Users/punchbox/.npm/lessy/0.0.1/package /Users/punchbox/.npm/f211adfb-punchbox-npm-lessy-0-0-1-package.lock
+42 silly lockFile f211adfb-punchbox-npm-lessy-0-0-1-package /Users/punchbox/.npm/lessy/0.0.1/package
+43 verbose tar unpack /Users/punchbox/.npm/lessy/0.0.1/package.tgz
+44 silly lockFile f211adfb-punchbox-npm-lessy-0-0-1-package /Users/punchbox/.npm/lessy/0.0.1/package
+45 verbose lock /Users/punchbox/.npm/lessy/0.0.1/package /Users/punchbox/.npm/f211adfb-punchbox-npm-lessy-0-0-1-package.lock
+46 silly gunzTarPerm modes [ '755', '644' ]
+47 silly gunzTarPerm extractEntry package.json
+48 silly gunzTarPerm extractEntry README.md
+49 silly gunzTarPerm extractEntry bin/less-touch
+50 silly gunzTarPerm extractEntry css/css.css
+51 silly gunzTarPerm extractEntry css/css.less
+52 silly gunzTarPerm extractEntry css/stack.less
+53 silly gunzTarPerm extractEntry lib/lessy.js
+54 silly gunzTarPerm extractEntry tests/example.js
+55 verbose read json /Users/punchbox/.npm/lessy/0.0.1/package/package.json
+56 silly lockFile f211adfb-punchbox-npm-lessy-0-0-1-package /Users/punchbox/.npm/lessy/0.0.1/package
+57 silly shasum updated bytes 3270
+58 info shasum fd96edc0c43dc3f5c3868d6e2b151a59af370862
+58 info shasum /Users/punchbox/.npm/lessy/0.0.1/package.tgz
+59 verbose from cache /Users/punchbox/.npm/lessy/0.0.1/package/package.json
+60 verbose chmod /Users/punchbox/.npm/lessy/0.0.1/package.tgz 644
+61 verbose chown /Users/punchbox/.npm/lessy/0.0.1/package.tgz [ 501, 20 ]
+62 silly lockFile 3a52ce78- .
+63 silly publish { name: 'lessy',
+63 silly publish   version: '0.0.1',
+63 silly publish   description: '\'a simple file watcher,capable of watching a single file or dir to help you make sport work of those pesky less files"',
+63 silly publish   main: './lib/lessy.js',
+63 silly publish   directories: { test: 'tests' },
+63 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+63 silly publish   repository: { type: 'git', url: 'http://github.com/influx6/lessy.js' },
+63 silly publish   keywords: [ 'less', 'file', 'watcher', 'file', 'monitor' ],
+63 silly publish   author: { name: 'Alexander Adeniyi Ewetumo' },
+63 silly publish   license: 'Mit',
+63 silly publish   gitHead: 'a10e7e9d36f2ff76a454448dafdb657ec330f2d1',
+63 silly publish   readmeFilename: 'README.md',
+63 silly publish   dependencies: { less: '>= 1.3.0', tsk: '@0.3.x', watcherjs: '@0.x.x' },
+63 silly publish   readme: '# Lessy \n\tIs Less-Touch reborn to be more functional and fast and less redundant\n\n#Install \n\t\' npm install lessy \'\n\n#Example\n\t"\n\t\tvar lessy = require(\'lessy\');\n\t\t//get a lessy object, it requires two arguments\n\t\t\t-\toutput : where you wish your generated css files to be saved\n\t\t\t- imports : where you keep your other less files( usually in the same as the less folder,if u seprate your less files though(note thats a bad idea generally)),supply the directory path so it can handle less @imports directives\n\n\t\tvar compiler = lessy(\'./css\',\'./less\');\n\t\t\n\t\t//to watch a single file\n\t\tcompiler.sync(\'./less/style.less\');\n\t\t\n\t\t//supply a second arguments if u wish to rename the file\n\t\tcompiler.sync(\'./less/style.less\',\'styledup.css\');\n\t\t\n\t\t//to watch a directory\n\t\tcompiler.syncDir(\'./less\');\n\n\t\t//if u wish to change the update timer( the interval it watches the files and folders)\n\t\t\n\t\tcompiler.ms = 1000; //make it one second,instead of half the second(500) default time\n\n\t\t//then startup your compiler\n\t\tcompiler.bootup();\n\t"\n# Features\n\t- capable of watching only a single file\n\t- capable of dealing with @import directives by requiring you to specify your location for your less files\n\t- capable of watching a directory and updating itself with the lists of files added\n\t- a better time based loop \n\n# License: Released under Mit Licence\n"\nThe MIT License (MIT)\n\nCopyright (c) 2011 - 2012 Christoph Martens\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the "Software"), to deal in\nthe Software without restriction, including without limitation the rights to use,\ncopy, modify, merge, publish, distribute, sublicense, and/or sell copies of the\nSoftware, and to permit persons to whom the Software is furnished to do so, subject\nto the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies\nor substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR\nPURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE\nFOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\nOTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER\nDEALINGS IN THE SOFTWARE.\n\n"',
+63 silly publish   _id: 'lessy@0.0.1',
+63 silly publish   dist: { shasum: 'fd96edc0c43dc3f5c3868d6e2b151a59af370862' },
+63 silly publish   _from: '.' }
+64 verbose url raw lessy
+65 verbose url resolving [ 'https://registry.npmjs.org/', './lessy' ]
+66 verbose url resolved https://registry.npmjs.org/lessy
+67 info trying registry request attempt 1 at 05:18:25
+68 http PUT https://registry.npmjs.org/lessy
+69 info retry will retry, error on last attempt: Error: connect EHOSTUNREACH
+70 info trying registry request attempt 2 at 05:18:47
+71 http PUT https://registry.npmjs.org/lessy
+72 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+73 info trying registry request attempt 3 at 05:19:48
+74 http PUT https://registry.npmjs.org/lessy
+75 error publish Failed PUT response undefined
+76 error Error: socket hang up
+76 error     at createHangUpError (http.js:1344:15)
+76 error     at CleartextStream.socketCloseListener (http.js:1395:23)
+76 error     at CleartextStream.EventEmitter.emit (events.js:126:20)
+76 error     at SecurePair.destroy (tls.js:956:22)
+76 error     at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+77 error If you need help, you may report this log at:
+77 error     <http://github.com/isaacs/npm/issues>
+77 error or email it to:
+77 error     <npm-@googlegroups.com>
+78 error System Darwin 12.2.0
+79 error command "/Volumes/HOME/homebrew/Cellar/node/0.8.18/bin/node" "/usr/local/bin/npm" "publish" "-f"
+80 error cwd /Volumes/HOME/Projects/me/lessy
+81 error node -v v0.8.18
+82 error npm -v 1.2.2
+83 error code ECONNRESET
+84 verbose exit [ 1, true ]
