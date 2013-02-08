@@ -24,7 +24,7 @@
 # Features
 	- capable of watching only a single file
 	- capable of dealing with @import directives by requiring you to specify your location for your less files
-	- capable of watching a directory and updating itself the lists of files in a directory
+	- capable of watching a directory and updating itself with the lists of files added
 	- a better time based loop 
 
 # License: Released under Mit Licence
