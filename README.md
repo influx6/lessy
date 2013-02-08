@@ -12,12 +12,20 @@
 			- imports : where you keep your other less files( usually in the same as the less folder,if u seprate your less files though(note thats a bad idea generally)),supply the directory path so it can handle less @imports directives
 
 		var compiler = lessy('./css','./less');
+		
 		//to watch a single file
 		compiler.sync('./less/style.less');
+		
 		//supply a second arguments if u wish to rename the file
 		compiler.sync('./less/style.less','styledup.css');
+		
 		//to watch a directory
 		compiler.syncDir('./less');
+
+		//if u wish to change the update timer( the interval it watches the files and folders)
+		
+		compiler.ms = 1000; //make it one second,instead of half the second(500) default time
+
 		//then startup your compiler
 		compiler.bootup();
 	"
